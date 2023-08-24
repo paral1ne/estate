@@ -1,5 +1,5 @@
-body {
-  width: 70%;
+main {
+  width: 75%;
   min-width: 800px;
   margin: 0 auto;
 }
@@ -12,14 +12,15 @@ body {
 }
 .card {
   border-radius: 1em;
-  text-align: center;
-  padding: 1em;
+  text-align: left;
+  padding: 0.5em;
+  height: 500px;
 }
 .card:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 .card img {
-  border-radius: 50%;
+  border-radius: 10%;
   width: 70%;
   margin: auto;
 }
@@ -60,4 +61,11 @@ h1,
 h2 {
   padding-left: 10px;
   font-family: monospace;
+}
+.discription {
+  text-align: center;
+}
+nav {
+  width: 100%;
+  background-color: #e3f2fd;
 }
